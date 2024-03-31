@@ -3,6 +3,14 @@
   <permissions>
   <!-- -*- extra stuff goes here -*- -->
 
+    <permission name="Upload.Files: Add UploadFile" acquire="True">
+      <role name="Manager"/>
+      <role name="Site Administrator"/>
+      <role name="Owner"/>
+      <role name="Contributor"/>
+    </permission>
+
+
     <permission name="Upload.Files: Add UploadFiles" acquire="True">
       <role name="Manager"/>
       <role name="Site Administrator"/>

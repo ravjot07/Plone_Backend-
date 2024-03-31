@@ -7,6 +7,12 @@
   <!-- -*- extra stuff goes here -*- -->
 
     <permission
+        id="Upload.Files.AddUploadFile"
+        title="Upload.Files: Add UploadFile"
+    />
+
+
+    <permission
         id="Upload.Files.AddUploadFiles"
         title="Upload.Files: Add UploadFiles"
     />
